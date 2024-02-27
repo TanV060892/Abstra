@@ -1,0 +1,60 @@
+{
+  "workspace": {
+    "id": null,
+    "name": "Untitled Workspace",
+    "theme": null,
+    "logo_url": null,
+    "brand_name": null,
+    "main_color": null,
+    "font_color": null,
+    "font_family": null,
+    "sidebar": [
+      {
+        "id": "transactions",
+        "name": "Transactions",
+        "path": "transactions",
+        "type": "form",
+        "visible": false
+      }
+    ]
+  },
+  "jobs": [
+    {
+      "id": "7b76d515-95e6-4db5-bfa3-248ae6925f3b",
+      "file": "test_job.py",
+      "title": "test_job",
+      "schedule": "1 * * * *",
+      "workflow_position": [
+        0,
+        0
+      ],
+      "transitions": []
+    }
+  ],
+  "hooks": [],
+  "forms": [
+    {
+      "id": "7008f2b5-325d-4b75-9d48-1c0d338963af",
+      "path": "transactions",
+      "title": "Transactions",
+      "is_initial": true,
+      "auto_start": true,
+      "allow_restart": false,
+      "end_message": "",
+      "start_message": null,
+      "error_message": null,
+      "welcome_title": " ",
+      "timeout_message": null,
+      "start_button_text": null,
+      "restart_button_text": null,
+      "file": "transactions.py",
+      "workflow_position": [
+        0,
+        0
+      ],
+      "transitions": []
+    }
+  ],
+  "scripts": [],
+  "version": "1.0"
+}
